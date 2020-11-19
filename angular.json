@@ -32,6 +32,9 @@
               }
             ],
             "styles": [
+              "src/assets/css/framework.css",
+              "src/assets/css/style.css",
+              "src/assets/fonts/css/fontawesome-all.min.css",
               {
                 "input": "src/theme/variables.scss"
               },
@@ -39,7 +42,11 @@
                 "input": "src/global.scss"
               }
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.js",
+              "src/assets/js/plugins.js",
+              "src/assets/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {
